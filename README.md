@@ -81,7 +81,7 @@ In order to verify that your memory freeing functions work correctly, it will be
 
 ## Submission
 
-We will submit assignments via Gradescope. To submit Assignment 2, you only need to submit `products.c`. No zip files need. A link will be provided on the canvas assignment page.
+We will submit assignments via Gradescope. To submit Assignment 2, you only need to submit `products.c`. No zip files needed. A link will be provided on the canvas assignment page.
 
 ## Grading criteria
 
