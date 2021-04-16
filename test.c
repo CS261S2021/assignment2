@@ -71,7 +71,7 @@ int main(int argc, char** argv) {
   s = create_product(TESTING_NAMES[0], TESTING_INVENTORIES[0], TESTING_PRICES[0]);
   printf("\n== Here are the results of create_product():\n");
   if (s) {
-    printf("  - name: %s\tid: %d\tprice: %f\n", s->name, s->inventory, s->price);
+    printf("  - name: %s\tinventory: %d\tprice: %f\n", s->name, s->inventory, s->price);
   } else {
     printf("  - NULL\n");
   }
@@ -97,7 +97,7 @@ int main(int argc, char** argv) {
   s = find_max_price(products);
   printf("\n== Here's the product with the highest price:\n");
   if (s) {
-    printf("  - name: %s\tid: %d\tprice: %f\n", s->name, s->inventory, s->price);
+    printf("  - name: %s\tinventory: %d\tprice: %f\n", s->name, s->inventory, s->price);
   } else {
     printf("  - NULL\n");
   }
@@ -109,7 +109,7 @@ int main(int argc, char** argv) {
   s = find_max_investment(products);
   printf("\n== Here's the product with the maximum investment:\n");
   if (s) {
-    printf("  - name: %s\tid: %d\tprice: %f\n", s->name, s->inventory, s->price);
+    printf("  - name: %s\tinventory: %d\tprice: %f\n", s->name, s->inventory, s->price);
   } else {
     printf("  - NULL\n");
   }
